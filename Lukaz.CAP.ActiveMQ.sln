@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.ActiveMQ.MySql", "sample\Sample.ActiveMQ.MySql\Sample.ActiveMQ.MySql.csproj", "{251898EB-3E35-48BA-88FF-831B29720289}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DE7F9CCB-7300-4081-9115-4C1C8C5E1ED6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{8A869A3D-B8CD-4C6E-BA9B-C838E1C72852}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lukaz.CAP.ActiveMQ", "src\Lukaz.CAP.ActiveMQ\Lukaz.CAP.ActiveMQ.csproj", "{775343ED-CA29-41A3-89EE-A0E06A30DE32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{251898EB-3E35-48BA-88FF-831B29720289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{251898EB-3E35-48BA-88FF-831B29720289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{251898EB-3E35-48BA-88FF-831B29720289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{251898EB-3E35-48BA-88FF-831B29720289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{775343ED-CA29-41A3-89EE-A0E06A30DE32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{775343ED-CA29-41A3-89EE-A0E06A30DE32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{775343ED-CA29-41A3-89EE-A0E06A30DE32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{775343ED-CA29-41A3-89EE-A0E06A30DE32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{251898EB-3E35-48BA-88FF-831B29720289} = {8A869A3D-B8CD-4C6E-BA9B-C838E1C72852}
+		{775343ED-CA29-41A3-89EE-A0E06A30DE32} = {DE7F9CCB-7300-4081-9115-4C1C8C5E1ED6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F86E4A4-E204-49BD-A820-25BCA1433D75}
+	EndGlobalSection
+EndGlobal

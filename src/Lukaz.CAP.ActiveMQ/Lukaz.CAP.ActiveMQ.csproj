@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Lukas Zhang</Authors>
+    <Company />
+    <Version>0.9.4</Version>
+    <Description>ActiveMQ for DotNetCore.CAP.</Description>
+    <PackageProjectUrl>https://github.com/lukazh/Lukaz.CAP.ActiveMQ</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Apache.NMS.ActiveMQ.NetStd" Version="1.7.2.4115" />
+    <PackageReference Include="DotNetCore.CAP" Version="2.5.1" />
+  </ItemGroup>
+
+</Project>
